@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  color: white;
+  height: 50px;
+  line-height: 50px;
+}
+.App-header div {
+  max-width: 1012px;
+  margin: 0 auto;
+  text-align: left;
+}
+.App-title {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.5em;
+  margin: 0;
+  margin-left: 10px;
+  color: #fff;
+}
+.octicon {
+  display: inline-block;
+  /* vertical-align: text-top; */
+  fill: currentColor;
+}
+.am-search {
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.text-normal {
+  font-weight: 400 !important;
+}
+.am-search-cancel,.am-search-clear {
+  cursor: pointer;
+}
+.octicon {
+  vertical-align: text-bottom;
+}
+.octicon {
+  display: inline-block;
+  vertical-align: text-top;
+  fill: currentColor;
+}
+.main {
+  max-width: 1012px;
+  margin:40px auto;
+}
+.ant-btn-primary,
+.ant-btn-primary:hover, 
+.ant-btn-primary:focus {
+  color: #000;
+  background-color: #eff3f6;
+  background-image: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%);
+}
+
+.App-intro {
+  max-width: 1012px;
+  margin:20px auto;
+  font-size: large;
+  min-height: 380px;
+}
+.px-3 {
+  padding-right: 16px !important;
+  padding-left: 16px !important;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@media screen and (max-width:720px) {
+  .App-header div {
+    padding-left: 10px;
+  }
+}
